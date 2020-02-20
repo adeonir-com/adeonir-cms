@@ -1,0 +1,23 @@
+{
+  "name": "adeonir-com/adeonir-cms",
+  "description": "WordPress headless cms for my site",
+  "authors": [
+    {
+      "name": "Adeonir Kohl",
+      "email": "adeonir@gmail.com",
+      "homepage": "https://adeonir.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "wpackagist-plugin/advanced-custom-fields": "^5.8",
+    "wpackagist-plugin/acf-to-rest-api": "^3.2",
+    "wpackagist-plugin/custom-post-type-ui": "^1.7",
+    "wpackagist-plugin/classic-editor": "^1.5"
+  }
+}

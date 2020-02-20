@@ -1,0 +1,18 @@
+# Ignore all files starting with .
+.*
+
+# Ignore OS generated files
+Thumbs.db
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!wp-content
+
+# Ignore everything in the "wp-content" directory.
+wp-content/*
+
+# Whitelist project files.
+!.gitignore
+!docker-compose.yml
+!composer.json
+!readme.md
